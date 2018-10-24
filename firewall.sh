@@ -19,3 +19,5 @@ sudo ufw allow in on enp5s0 from any to any port 52376 proto tcp
 sudo ufw allow in on tun0 from any to any port 52376 proto tcp
 sudo ufw allow in on tun0 from any to any port 51205 proto tcp
 sudo ufw allow in on tun0 from any to any port 51205 proto udp
+sudo ufw allow in on tun0 from any to any port 51046:52546 proto tcp
+sudo ufw allow in on tun0 from any to any port 51046:52546 proto udp
